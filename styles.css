@@ -1,0 +1,62 @@
+.temp{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.temp-2{
+    color: black;
+}
+
+.temp-3{
+    color: white;
+}
+
+.Orbicks{
+    font-size: larger;
+    color: whitesmoke;
+}
+
+.welcome-line{
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+.cards{
+    height: 375px;
+}
+
+/* #About:hover{
+    color: #59A6FF;
+} */
+
+
+/* .background-header .main-nav .nav li:hover a {
+    color: #4b8ef1;
+  }
+   */
+
+@media screen and (max-width: 932px) {
+    .Orbicks{
+        color: #59A6FF;
+    }
+    .welcome-line{
+        color: black;
+    }
+    .temp{
+        display: grid;
+        /* align-items:  center; */
+        grid-template-columns: 1fr;
+        /* vertical-align: middle; */
+        padding-top: 150px;
+    }
+
+    .cards .icon{
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* margin: 0; */
+        padding-left: 55%;
+    }
+    
+}
